@@ -1,0 +1,35 @@
+// 给全局header增加margin-bottom
+.ant-pro-basicLayout .ant-layout-header:not(.ant-pro-top-menu) {
+  margin-bottom: 26px !important;
+}
+
+// 全局layout增加margin
+.ant-pro-basicLayout-content {
+  margin: 0 24px 24px 24px !important;
+}
+
+// 头部无border-bottom的card，底部无border
+.card-no-border {
+  border: unset !important;
+  .ant-card-head {
+    border-bottom: unset;
+  }
+}
+
+// 无border的modal
+.modal-no-border {
+  .ant-modal-header {
+    border-bottom: unset;
+  }
+  .ant-modal-footer {
+    border-top: unset;
+  }
+}
+
+// 自定义table列表操作列样式
+.table-operate {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  color: @primary-color;
+}
